@@ -1,0 +1,28 @@
+{
+  "name": "grocery_list",
+  "version": "1.0.0",
+  "description": "grocery list for untapt",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarah Yiskah Eichenstein",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0"
+  }
+}
