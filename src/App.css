@@ -4,11 +4,25 @@ body,html {
   height: 100%;
 }
 
-/* div#App {
+input[type=number]{
+  width: 35px;
+}
+
+div.App {
+  margin-top: 5%;
   display: flex;
   align-items: center;
   flex-direction: column;
-} */
+}
+
+button.navButton {
+  background: #EEEBF0;
+  width: 30%;
+}
+
+button.navButton.active {
+  background: white;
+}
 
 /*
 blue #0087FF
