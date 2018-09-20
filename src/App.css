@@ -35,6 +35,10 @@ button.activeNavButton {
   border: none;
 }
 
+button > * {
+  pointer-events: none;
+}
+
 button {
   height: 40px;
   background: white;
