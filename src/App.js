@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import style from "./App.css"
+import style from './App.css'
+import UUID from 'uuid'
+
 import Nav from './components/Nav'
 import Extra from './components/Extra'
 import Basket from './components/Basket'
@@ -10,7 +12,11 @@ class App extends Component {
   state = {
     active: 'basket',
     basket: [],
-    extra: [{name: "milk", amount: 1}, {name: "cereal", amount: 1}, {name: "cheese", amount: 1}]
+    extra: [
+      {name: "milk", amount: 1, id: UUID()},
+      {name: "cereal", amount: 1, id: UUID()},
+      {name: "cheese", amount: 1, id: UUID()}
+    ]
   }
 
   changeActive = (active) => {
@@ -25,7 +31,7 @@ class App extends Component {
 
   removeItem = (target, item) => {
     this.setState({
-      [target]: [...this.state[target].filter(i => i.name !== item.name || i.amount !== item.amount)]
+      [target]: [...this.state[target].filter(i => i.id !== item.id)]
     })
   }
 

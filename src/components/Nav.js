@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import style from "../App.css"
+import style from '../App.css'
 
 
 class Nav extends Component {
   render(){
     return(
-      <div id="nav">
+      <div className={style.Nav}>
         <button className={this.props.active === "basket" ? style.activeNavButton : style.navButton} onClick={() => this.props.changeActive("basket")}>
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle>
