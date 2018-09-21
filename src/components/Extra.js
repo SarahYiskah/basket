@@ -17,8 +17,8 @@ class Extra extends Component {
   }
 
   loadItems = () => {
-    let basket = this.props.basket.map(item => item.name)
-    let items = this.props.items.filter(item => !basket.includes(item.name))
+    let basket = this.props.basket.map(item => item.id)
+    let items = this.props.items.filter(item => !basket.includes(item.id))
     return (<ul>
       {
         items.map(item => <li id={item.id} title={item.name} value={item.amount}>{item.amount}  {item.name}
