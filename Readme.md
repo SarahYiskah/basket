@@ -1,5 +1,7 @@
 # Grocery Basket
 
+![Basket app](./app.png)
+
 This _Basket_ app allows you to add items and associated quantities to a shopping list. Once you put an item in your basket, you can check it off. Doing that will clear the item from the list.
 
 There is also a recommendations list. Things that are usually purchased, but aren't on your shopping list, appear here. You can add whichever items you like to your shopping list, or delete it from your recommendations.
