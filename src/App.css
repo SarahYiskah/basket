@@ -54,7 +54,7 @@ div.NewItemFields {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 96%;
+  width: 97%;
   height: 18%;
 }
 
@@ -63,7 +63,7 @@ input {
   border: none;
   margin: 3% 1% 1% 1%;
   width: 80%;
-  padding: 1%;
+  padding: 1% 1.5%;
   font-size: 0.9em;
   font-family: "Open Sans";
   border-radius: 5px;
@@ -118,7 +118,7 @@ li {
   display: flex;
   flex-direction: row;
   width: 92%;
-  padding: 0 1%;
+  padding: 0 1.5%;
   height: 8%;
   min-height: 60px;
   justify-content: space-between;
